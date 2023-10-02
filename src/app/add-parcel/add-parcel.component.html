@@ -1,0 +1,22 @@
+<div class="section">
+    <div class="d-flex justify-content-center">
+      <div class="form-row">
+        <div class="col">
+          <tr>Sender id: <input class="form-control" type="text" [(ngModel)]="id" /></tr>
+        </div>
+        <div class="col">
+          <tr>Address: <input class="form-control" type="text" [(ngModel)]="address" /></tr>
+        </div>
+        <tr>Weight: <input class="form-control" type="number" [(ngModel)]="weight" /> </tr>
+        <tr>Fragile? 
+          <select class="form-select" name="Fragile?" [(ngModel)]="fragile">
+            <option value="false">False</option>
+            <option value="true">True</option>
+          </select>
+        </tr>
+      </div>
+      <br>
+      <button class="btn btn-outline-primary" (click)="addparcels()">Add parcel </button>
+    </div>
+    </div>
+  
