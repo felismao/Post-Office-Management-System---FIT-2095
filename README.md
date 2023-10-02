@@ -16,11 +16,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ```shell
 const url = 'mongodb://localhost:27017/postoffice';
 ```
-4. Run npm install
+3. Run npm install
 ```shell
 npm install
 ```
-5. Run app.js
+4. Run app.js
 ```shell
 node app.js
 ```
